@@ -54,3 +54,5 @@ htmlcov/
 
 #environment file for AWS Beanstalk
 .ebextensions/environment_variables.config
+# System files
+.abacus.donotdelete
