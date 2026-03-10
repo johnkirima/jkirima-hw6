@@ -41,7 +41,6 @@ nav a {
 
 nav a.active { background-color: var(--nav-blue); color: white; border-radius: 4px; }
 
-/* Flexbox for Sidebar Layout */
 .content-wrapper {
   display: flex;
   gap: 20px;
@@ -70,19 +69,8 @@ h2, h3 { color: var(--mu-red); margin-top: 0; }
   margin: 20px 0;
 }
 
-ul { padding-left: 20px; }
-li { margin-bottom: 10px; }
-
 footer {
   text-align: center;
   padding: 20px;
   color: #777;
-  font-size: 0.9rem;
-}
-
-/* Responsive for Mobile */
-@media (max-width: 768px) {
-  .content-wrapper { flex-direction: column; }
-  header { flex-direction: column; text-align: center; }
-  nav { margin-top: 15px; }
 }
