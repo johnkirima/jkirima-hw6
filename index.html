@@ -2,29 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>John Kirima - About Me</title>
+  <title>John Kirima - Personal Web Page</title>
   <link rel="stylesheet" href="style/stylesheet.css" />
 </head>
 <body>
-  <header>
-    <h1>John Kirima</h1>
-    <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="schedule.html">Schedule</a>
-      <a href="https://x.com/JtKirima" target="_blank" rel="noopener noreferrer">My X</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>I love movies and critiquing films. I enjoy Hip Hop and Rap music.</p>
-      <p>I am studying to become a Data Analyst and working toward Data Science.</p>
-      <p>Soccer is a big part of my life. My favorite team is <strong>Manchester United</strong>, and my greatest ever player is <em>Wayne Rooney</em>.</p>
-      <img src="images/MUFC.jpg" alt="Manchester United" class="profile-pic" />
-    </section>
-  </main>
-  <footer>
-    <p>© 2026 John Kirima</p>
-  </footer>
+  <div class="container">
+    <header>
+      <h1>John Kirima</h1>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="https://x.com/JtKirima" target="_blank">My X Account</a>
+      </nav>
+    </header>
+
+    <div class="content-wrapper">
+      <main>
+        <section class="card">
+          <h2>About Me & My Journey</h2>
+          <p>Welcome to my personal corner of the web! I am currently a student at the University of Iowa, focusing on becoming a professional <strong>Data Analyst</strong>. My ultimate goal is to transition into <strong>Data Science</strong>, where I can use advanced modeling to solve complex problems.</p>
+          <p>When I'm not looking at spreadsheets or writing SQL queries, you can find me watching soccer. I am a die-hard <strong>Manchester United</strong> fan. My passion for the "Red Devils" started years ago, and in my opinion, <em>Wayne Rooney</em> remains the greatest player to ever step onto the pitch at Old Trafford.</p>
+          <img src="images/mufc.jpg" alt="Manchester United" class="profile-pic" />
+        </section>
+
+        <section class="card">
+          <h2>Movie Critiques & Media</h2>
+          <p>I don't just watch movies; I analyze them. I love diving deep into cinematography, plot structure, and character development. Some of my favorite genres include psychological thrillers and classic dramas. I believe that a good film should leave you thinking for days after the credits roll.</p>
+          <p>Music is another huge influence on my life. I grew up listening to <strong>Hip Hop and Rap</strong>, and I appreciate the storytelling and rhythm that defines the genre. It keeps me motivated during long study sessions.</p>
+        </section>
+      </main>
+
+      <aside class="sidebar">
+        <section class="card">
+          <h3>Quick Facts</h3>
+          <ul>
+            <li><strong>Location:</strong> Iowa City, IA</li>
+            <li><strong>Major:</strong> Business Analytics</li>
+            <li><strong>Favorite Team:</strong> Man United</li>
+            <li><strong>Top Artist:</strong> Kendrick Lamar</li>
+          </ul>
+        </section>
+        <section class="card">
+          <h3>Data Science Goals</h3>
+          <p>My current focus is mastering Python, R, and Machine Learning algorithms to build predictive models for sports analytics.</p>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+      <p>© 2026 John Kirima - BAIS:3300 Digital Product Management</p>
+    </footer>
+  </div>
 </body>
 </html>
